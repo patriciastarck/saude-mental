@@ -116,7 +116,8 @@ footer .by {
 @media(max-width:700px) {
     
     section {         
-        display: flex;       
+        display: flex;  
+        overflow-x: hidden;    
     }
 
     .formContainer {                 
