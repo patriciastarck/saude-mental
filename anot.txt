@@ -33,7 +33,6 @@ section {
    background-image: url('images/brain.jpg');   
    background-size: cover;  
    overflow: hidden;    
-   
 }
 
 .formContainer {
@@ -107,16 +106,18 @@ footer {
     font-size: 24px;
 }
 
-@media(max-width:700px) {
+@media(max-width:900px) {
     
-    section {         
-        display: flex;       
+    section {
+        background-image: none;
+        display: flex;
+        
+        
     }
 
     .formContainer {
-        margin: auto;         
-        background-color: #ffffffe5; 
-        width: ;
+        background-color: yellow;
+        
     }
  
     
