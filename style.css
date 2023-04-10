@@ -122,10 +122,8 @@ footer .by {
     .formContainer {                 
         background-color: #ffffffe5;    
         margin: 60px auto; 
-        max-width: 80%;
-        font-size: 1.5rem;
-    } 
-    
+        max-width: 80%;        
+    }     
       
     .description {                          
         max-width: 80%;
@@ -139,10 +137,9 @@ footer .by {
         text-align: center;
         margin-bottom: 40px;
     }
-
        
     footer .picture {
-        margin: 60px;
-        width: 300px;
+        margin: 60px auto;
+        width: 50%;
     }    
 }
