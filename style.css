@@ -107,6 +107,12 @@ footer {
     font-size: 24px;
 }
 
+footer .by {
+    color: white;
+    margin-top:50px;
+    font-size: .8rem;
+}
+
 @media(max-width:700px) {
     
     section {         
@@ -138,11 +144,5 @@ footer {
     footer .picture {
         margin: 60px;
         width: 300px;
-    }
-
-    footer .by {
-        color: white;
-        margin: 30px;
-        font-size: .8rem;
-    }
+    }    
 }
